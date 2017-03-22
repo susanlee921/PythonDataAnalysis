@@ -1,0 +1,5 @@
+wdi = pd.read_csv('WDI_Data.csv')
+wdi.loc[:5]
+countries = wdi.loc[:,'Country Name'].unique()
+print(len(countries))
+
